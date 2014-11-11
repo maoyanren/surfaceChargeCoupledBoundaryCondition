@@ -1,0 +1,11 @@
+EXE_INC = \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/turbulenceModels/compressible/turbulenceModel/derivedFvPatchFields/temperatureCoupledBase \
+    -I$(LIB_SRC)/meshTools/mappedPatches/mappedPolyPatch \
+    -I$(LIB_SRC)/meshTools/AMIInterpolation/AMIInterpolation \
+    -I$(LIB_SRC)/meshTools/AMIInterpolation/faceAreaIntersect \
+    -I$(LIB_SRC)/meshTools/searchableSurface \
+    -I$(LIB_SRC)/meshTools/indexedOctree \
+    -I$(LIB_SRC)/meshTools/meshTools \
+    -I$(LIB_SRC)/meshTools/triSurface/triangleFuncs
+EXE_LIBS =
